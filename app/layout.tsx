@@ -6,18 +6,18 @@ const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] });
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: '모아 스튜디오 — 좋은 생각이 보이는 순간',
-  description: '브랜드의 본질을 발견하고 기억에 남는 웹 경험으로 만드는 디지털 스튜디오입니다.',
+  title: '집근처 경매 — 반경 30km 부동산 경매 분석',
+  description: '우리 집에서 30km 이내의 아파트, 상가, 토지 등 부동산 경매물건을 찾고 가격과 위험을 비교합니다.',
   openGraph: {
-    title: '모아 스튜디오 — 좋은 생각이 보이는 순간',
-    description: '브랜드의 본질을 웹 경험으로',
-    images: [{ url: '/og.png', width: 1200, height: 630, alt: '모아 스튜디오' }],
+    title: '집근처 경매 — 가까운 경매물건을 한눈에',
+    description: '반경 30km 부동산 경매 검색과 분석',
+    images: [],
   },
   twitter: {
     card: 'summary_large_image',
-    title: '모아 스튜디오 — 좋은 생각이 보이는 순간',
-    description: '브랜드의 본질을 웹 경험으로',
-    images: ['/og.png'],
+    title: '집근처 경매 — 가까운 경매물건을 한눈에',
+    description: '반경 30km 부동산 경매 검색과 분석',
+    images: [],
   },
 };
 
